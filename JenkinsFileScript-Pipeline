@@ -7,6 +7,7 @@ node{
     stage('Build'){
         sh "${mavenHome}/bin/mvn clean package"
     }
+    /*
     stage('ExecuteSonarQubeReport'){
         sh "${mavenHome}/bin/mvn sonar:sonar"
     }
@@ -24,5 +25,6 @@ node{
         Regards,
         Sai Teja.''', cc: '', from: '', replyTo: '', subject: 'Build Over', to: 'saiteja0401@gmail.com'
     }
+    */
 }
  
